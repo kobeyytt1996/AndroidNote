@@ -131,3 +131,12 @@ private fun getBlurBitmap(radius: Int, bitmap: Bitmap): Bitmap {
 获取到模糊的图片，再set到对应的View中。很明显，Android12提供的API大大简化了这个过程且更加灵活。
 
 虽然官方宣称渲染性能得到提升，但使用一张200k的图片测试，用两种方式运行后，分别查看了内存和耗时，基本一致，可能在较大图片上才存在差距。
+
+## 4. 参考：
+
+Android12 官网：https://developer.android.google.cn/about/versions/12/features
+
+Android 图片高斯模糊解决方案：https://www.jianshu.com/p/02da487a2f43
+
+高斯模糊算法：https://www.ruanyifeng.com/blog/2012/11/gaussian_blur.html
+
